@@ -14,7 +14,7 @@ const CompaignRegister = () => {
                     <p className="t16">최소 규격 : 최소 160 x 200</p>
                     <p className="t14">(썸네일은 필수 사항이 아닙니다.)</p>
                 </div>
-                <div className="w-[80px] h-[110px] bg-white border-dashed border-[1.8px] border-[#9E9E9E] rounded-[8px] flex justify-center items-center">
+                <div className="w-[80px] h-[110px] bg-white border-dashed border-[1.8px] border-[#9E9E9E] rounded-[8px] flex justify-center items-center cursor-pointer">
                     <MdUpload className="w-[60px] h-[80px]"/>
                 </div>
             </div>

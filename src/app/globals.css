@@ -9,7 +9,14 @@
     font-style: normal;
 }
 
+select {
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+}
+
 * {
+    position: relative;
     box-sizing: border-box;
     margin: 0;
     padding: 0; 

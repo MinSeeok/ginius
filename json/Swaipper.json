@@ -1,0 +1,24 @@
+{
+    "productList": [
+        {
+            "Red": 
+            {
+                "title": "Red Color",
+                "sub_title": "Red Color Sub Text",
+                "color": "#F00000"
+            },
+            "Blue": 
+            {
+                "title": "Blue Color",
+                "sub_title": "Blue Color Sub Text",
+                "color": "#0057D9"
+            },
+            "Green": 
+            {
+                "title": "Green Color",
+                "sub_title": "Green Color Sub Text",
+                "color": "#236533"
+            }
+        } 
+    ]
+}
