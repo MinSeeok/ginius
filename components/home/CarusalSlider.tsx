@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import { useDebounceBoolean } from "./../../func/usedebounce";
-import SwaiperData from '../../json/Swaipper.json';
 
 const Container = styled.div`
     position: relative;
@@ -199,17 +198,17 @@ const GiniusHomeCarusal = (prop:any) => {
         }
     },[dragging])
 
-    const onClickCard = (event:any, content:any) => {
-        if (dragging) {
-            event.stopPropagation();
-            return;
-        }
-        content.landing_url ? 
-        content.landing_yn === 'N' ? 
-        window.open(content.landing_url) : 
-        window.open(content.landing_url) : 
-        alert('현재 준비중인 서비스입니다');
-    }
+    // const onClickCard = (event:any, content:any) => {
+    //     if (dragging) {
+    //         event.stopPropagation();
+    //         return;
+    //     }
+    //     content.landing_url ? 
+    //     content.landing_yn === 'N' ? 
+    //     window.open(content.landing_url) : 
+    //     window.open(content.landing_url) : 
+    //     alert('현재 준비중인 서비스입니다');
+    // }
     const settings = {
         dots: false,
         infinite: true,
