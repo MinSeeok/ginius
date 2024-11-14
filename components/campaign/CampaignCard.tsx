@@ -36,7 +36,7 @@ const CampaignContainer = styled.div`
             position: absolute;
             bottom: 0;
             left: 14px;
-            width: 100%;
+            width: calc(100% + 20px);
             display: flex;
             flex-direction: column;
             justify-content: start;
@@ -165,6 +165,25 @@ const CampaignCard = (prop:any) => {
                     </div>
                 </div>
             </CampaignContainer>
+            {
+                more && (
+                    <MoreContainer>
+                        <div className="line-left"/>
+                        <div className="line-circle"/>
+                        <h2>미션 제목</h2>
+                        <div className="data-text-box">
+                            <p className="w-full flex justify-between items-center">
+                                등록일
+                                <span>2024.11.23</span>
+                            </p>
+                            <p className="w-full flex justify-between items-center">
+                                캠페인명
+                                <span>지니포어스</span>
+                            </p>
+                        </div>
+                    </MoreContainer>
+                )
+            }
             {
                 more && (
                     <MoreContainer>

@@ -1,13 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import ImageUploadComp from "../../../../components/upload/ImageUpload";
-import { IoChevronDownOutline } from "react-icons/io5";
 import { GrSort } from "react-icons/gr";
 import { GoSearch } from "react-icons/go";
 import CampaignCard from "../../../../components/campaign/CampaignCard";
 
-const CompaignList = () => {
+const CampaignList = () => {
     // sort
     const [sort, setSort] = useState<any>('최신순');
     const [focusSort, setFocuSort] = useState(false);
@@ -49,4 +47,4 @@ const CompaignList = () => {
     )
 }
 
-export default CompaignList;
+export default CampaignList;

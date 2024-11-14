@@ -2,7 +2,7 @@
 
 import ImageUploadComp from "../../../../components/upload/ImageUpload";
 
-const CompaignRegister = () => {
+const CampaignRegister = () => {
     return (
         <div className="w-full max-w-[1024px] min-h-screen flex flex-col justify-start items-start p-[14px]">
             <h1 className="t24 w900">캠페인 등록</h1>
@@ -30,4 +30,4 @@ const CompaignRegister = () => {
     )
 }
 
-export default CompaignRegister;
+export default CampaignRegister;

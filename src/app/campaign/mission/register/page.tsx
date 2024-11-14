@@ -7,7 +7,7 @@ import { BiSolidFilm, BiSolidImageAlt } from "react-icons/bi";
 import { LuFilePlus2 } from "react-icons/lu";
 import { MdInsertLink } from "react-icons/md";
 
-const CompaignMissionRegister = () => {
+const CampaignMissionRegister = () => {
     // mission
     const [mission, setMission] = useState<any>(null);
     const [focusMission, setFocusMission] = useState(false);
@@ -152,4 +152,4 @@ const CompaignMissionRegister = () => {
     )
 }
 
-export default CompaignMissionRegister;
+export default CampaignMissionRegister;
