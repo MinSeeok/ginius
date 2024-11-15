@@ -32,7 +32,7 @@ export default function Home() {
                         <div className="bg-white flex justify-center items-center w-[54px] h-[54px] rounded-full shadow-md">
                             <MdStar className="w-[40px] h-[40px]" />
                         </div>
-                        <p className="t14 w600 mt-[8px]">기부랭킹</p>
+                        <p className="t14 w600 mt-[8px] ">기부랭킹</p>
                     </div>
                 </div>
             </div>
