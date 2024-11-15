@@ -136,8 +136,8 @@ const Gini4uSlider = (prop:any) => {
             <div className={`left-button ${prop.type === 'main' && 'main'} ${focus === true && '!hidden'}`} onClick={()=> setFocus(true)}>
                 <IoChevronBackOutline className={`button-svg ${focus === true && '!text-[#777777]'}`}/>
             </div>
-            <div className={`right-button ${prop.type === 'main' && 'main'} ${focus === false && '!hidden'}`} onClick={()=> setFocus(false)}>
-                <IoChevronForwardOutline className={`button-svg ${focus === false && '!text-[#777777]'}`}/>
+            <div className={`right-button ${prop.type === 'main' && 'main' } ${focus === false && '!hidden'}`} onClick={()=> setFocus(false)}>
+                <IoChevronForwardOutline className={`button-svg ${focus === false && '!text-[#777777] '}`}/>
             </div> 
         </TodayContainer>
     )
