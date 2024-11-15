@@ -1,6 +1,7 @@
 "use client";
 
 import styled from "styled-components";
+import Gini4uSlider from "../../../../components/home/Gini4usSlider";
 
 const ChatBubble = styled.div`
     padding: 14px;
@@ -81,6 +82,14 @@ const StoryView = () => {
                     </ChatBubble>
                     <button className="mt-[40px] p-[6px] px-[14px] bg-black text-white rounded-[6px]">기부 인증하기</button>
                 </div>
+            </div>
+            <div className="w-full max-w-[1024px]  flex flex-col justify-start items-start p-[14px] border-solid border-[1px] border-[#9E9E9E] mt-[24px] rounded-[6px]">
+                <h4 className="t20 w600">다른 기부 요청 스토리 보기</h4>
+                <Gini4uSlider type={'storyView'}/>
+            </div>
+            <div className="w-full max-w-[1024px]  flex flex-col justify-start items-start p-[14px] border-solid border-[1px] border-[#9E9E9E] mt-[24px] rounded-[6px]">
+                <h4 className="t20 w600">진행 중 캠페인 보기</h4>
+                <Gini4uSlider type={'storyView'}/>
             </div>
             <div className="w-full flex justify-center items-center mt-[60px]">
                 <div className="w-full max-w-[400px] gap-[14px] flex justify-between items-center mt-[24px] w600 text-white">

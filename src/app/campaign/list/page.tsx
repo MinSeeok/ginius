@@ -39,7 +39,7 @@ const CampaignList = () => {
             <div className="w-full flex flex-col justify-start items-start gap-[8px] mt-[20px]">
                 {
                     ['CAMPAIN1','CAMPAIN2','CAMPAIN3','CAMPAIN4','CAMPAIN5','CAMPAIN6','CAMPAIN7','CAMPAIN8','CAMPAIN9','CAMPAIN10'].map((content:any, index:number) => (
-                        <CampaignCard content={content} index={index}/>
+                        <CampaignCard key={index} content={content} index={index}/>
                     ))
                 }
             </div>

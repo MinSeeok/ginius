@@ -144,6 +144,65 @@ const Container = styled.div`
         }
     }
 
+    .slider-container {
+        width: 100%;
+        height: 100%;
+        min-height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .image-box {
+            width: 100px;
+            height: 90px;
+            background-color: white;
+            border-radius: 8px;
+            position: absolute;
+            left: 42px;
+            bottom: 68px;
+        }
+        h4 {
+            position: absolute;
+            left: 42px;
+            bottom: 32px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p {
+            position: absolute;
+            left: 42px;
+            bottom: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #9E9E9E;
+        }
+        .counter {
+            position: absolute;
+            right: 20px;
+            bottom: 14px;
+            width: 80px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div {
+                position: absolute !important;
+                width: 80px;
+                height: 30px;
+                padding: 4px 6px;
+                background-color: #141414;
+                opacity: 0.4;
+                left: 0;
+                bottom: 0;
+                border-radius: 9999px;
+            }
+            span {
+                color: white;
+            }
+        }
+    }
+
 `
 function PrevArrow(props:any){
     const {onClick } = props;
@@ -295,22 +354,82 @@ const GiniusHomeCarusal = (prop:any) => {
                 <div 
                     className={`content-box bg-red-400 ${dragging === true && '!pointer-events-none'}`}
                 >
-                    <h3>1111</h3>
+                    <div className="slider-container">
+                        <div className="image-box">
+                            
+                        </div>
+                        <h4>지니포어스</h4>
+                        <p>받는 사람과 주는 사람 모두를 위해</p>
+                        <div className="counter">
+                            <div />
+                            <span>1 / 6</span>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <h3>2222</h3>
+                    <div className="slider-container">
+                        <div className="image-box">
+                            
+                        </div>
+                        <h4>지니포어스</h4>
+                        <p>받는 사람과 주는 사람 모두를 위해</p>
+                        <div className="counter">
+                            <div />
+                            <span>2 / 6</span>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <h3>3333</h3>
+                    <div className="slider-container">
+                        <div className="image-box">
+                            
+                        </div>
+                        <h4>지니포어스</h4>
+                        <p>받는 사람과 주는 사람 모두를 위해</p>
+                        <div className="counter">
+                            <div />
+                            <span>3 / 6</span>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <h3>444</h3>
+                    <div className="slider-container">
+                        <div className="image-box">
+                            
+                        </div>
+                        <h4>지니포어스</h4>
+                        <p>받는 사람과 주는 사람 모두를 위해</p>
+                        <div className="counter">
+                            <div />
+                            <span>4 / 6</span>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <h3>555</h3>
+                    <div className="slider-container">
+                        <div className="image-box">
+                            
+                        </div>
+                        <h4>지니포어스</h4>
+                        <p>받는 사람과 주는 사람 모두를 위해</p>
+                        <div className="counter">
+                            <div />
+                            <span>5 / 6</span>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <h3>666</h3>
+                <div className="slider-container">
+                    <div className="image-box">
+                            
+                        </div>
+                        <h4>지니포어스</h4>
+                        <p>받는 사람과 주는 사람 모두를 위해</p>
+                        <div className="counter">
+                            <div />
+                            <span>6 / 6</span>
+                        </div>
+                    </div>
                 </div>
             </Slider>
             {
